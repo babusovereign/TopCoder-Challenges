@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = 'com.sovereign.algorithm.BusinessTasks'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar {
+    baseName = 'SRM236_BusinessTasks'
+    version =  '0.1.0'
+}
